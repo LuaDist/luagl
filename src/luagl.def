@@ -1,0 +1,20 @@
+EXPORTS
+	luaopen_luagl
+	luagl_initconst
+	luagl_get_enum
+	luagl_malloc
+	luagl_free
+  luagl_get_arrayb
+  luagl_get_arrayi
+  luagl_get_arrayui
+  luagl_get_arrayd
+  luagl_get_arrayf
+  luagl_get_arrayubyte
+  luagl_get_array2ubyte
+  luagl_get_array2d
+  luagl_get_array2f
+  luagl_get_arrayb_pointer
+  luagl_get_arrayd_pointer
+  luagl_get_array2d_pointer
+  luagl_str2mask
+  luagl_mask2str
