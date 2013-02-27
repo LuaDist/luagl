@@ -1,0 +1,25 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Fabio Guerra, Cleyde Marlyse, Antonio Scuri"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "A library that provides access to all of the OpenGL functionality from Lua."
+version = "1.3"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/luagl.so]],
+[[lib/lua/luaglu.so]],
+}
+,
+Data = {
+[[share/luagl/README]],
+}
+,
+}
+
+license = " MIT License"
+url = "http://luagl.luaforge.net/"
+name = "luagl"
